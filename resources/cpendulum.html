@@ -1,0 +1,65 @@
+<html>
+<head>
+<title>Coupled Pendulum</title>
+<link href="../css/background.css" rel="stylesheet" type="text/css" />
+<link href="../css/newfont.css" rel="stylesheet" type="text/css" />
+<style type="text/css">
+.division1 {
+	border: 1px solid #F00;
+	position: fixed;
+	height: 400px;
+	width: 850px;
+	left: 500px;
+	top: 100px;
+	bottom: 100px;
+}
+#backgroundfont {
+	font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif;
+}
+.division2 {
+	position: absolute;
+	height: 440px;
+	width: 450px;
+	top: 80px;
+	left: 10px;
+}
+.division3 {
+	position: absolute;
+	height: 20px;
+	width: 1200px;
+	top: 503px;
+	left: 10px;
+	bottom: 20px;
+}
+</style>
+</head>
+<body id="background">
+	<p class="customfont" style=" font-size:30px; text-align:center">The Coupled Pendulum<br /> </p>
+    
+    <div class="division2">
+    <span id="backgroundfont">
+    <p style="text-indent:20px">The "Reset" button brings the system to its initial position. You can start or stop and continue the     simulation with the other button. It is possible to change the initial positions (upto 10 degrees) and Mass (upto 5 unit) of the two     pendula by using the corresponding text fields. Spring constant of the Spring also be changed upto 4 unit. A positive (negative) angle     means an elongation to the left(right) side.</p>
+    <p style="text-indent:20px">You can get the harmonics of the system as follows:</p>
+	<ul>
+		<li>If you write two equal numbers into the text fields (e.g. twice 10&deg;), the two pendula will always have same phases.</li>
+		<li>By choosing two opposite numbers (e.g. 8&deg; and &#8722;8&deg;), you can get an oscillation with opposite phases.</li>
+	</ul>
+    <p style="text-indent:20px"> If you write 0&deg; into one of the text fields for the initial positions, the entire energy of the oscillation will alternately be transferred to one of the pendula: That pendulum which first was in the mid-position oscillates with an ever-increasing amplitude, whereas the amplitude of the other pendulum decreases. After some time</p>
+	</span>
+    </div>
+    
+    <div class="division1">
+		<applet code="TheApplet" archive="cpendulum.jar" codebase="./" width=850 height=400 alt="Archive not found">
+		  <font color="#ff0000">Java runtime environment not installed or deactivated</font>
+	    </applet>
+    </div>
+    
+    <div class="division3">
+    <span id="backgroundfont">
+    <p> there is a moment in which only the first-mentioned pendulum oscillates; the other one stops in the mid-position at that time. Afterwards this process happens again with reversed roles and so on.
+    </p>
+    </span>
+    </div>
+    
+</body>
+</html>

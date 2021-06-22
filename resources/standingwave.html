@@ -1,0 +1,52 @@
+<html>
+<head>
+<title>Standing Wave</title>
+<link href="../css/background.css" rel="stylesheet" type="text/css" />
+<link href="../css/newfont.css" rel="stylesheet" type="text/css" />
+<style type="text/css">
+.division1 {
+	border: 1px solid #F00;
+	position: absolute;
+	height: 400px;
+	width: 700px;
+	left: 600px;
+	top: 130px;
+	bottom: 100px;
+}
+
+#backgroundfont {
+	font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif;
+	font-size: 14px;
+}
+.division2 {
+	position: absolute;
+	height: 300px;
+	width: 550px;
+	left: 20px;
+	top: 130px;
+	bottom: 10px;
+}
+</style>
+</head>
+
+<body id="background">
+	<p class="customfont" style=" font-size:30px; text-align:center">Standing Wave </br> <span style="font-size:25px"> ( Explanation by Superposition with the Reflected Wave )</span></p>
+     <div class="division2">
+    <span id="backgroundfont"> 
+    <p style="text-indent:20px">This applet simulates the situation when an wave (animated as RED colored wave) incidents on an fixed or free end and after superposition with the reflected wave (animated as BLUE colored wave) produces a resultant wave (animated as BLACK colored wave) of same frequency but double amplitude.</p>
+    <p style="text-indent:20px">When wave incidents on a fixed end, then the reflected wave is of opposite phase and when incidents on an open/free end then the reflected wave is of same phase comparing to the incidenting wave.</p>
+    <p style="text-indent:20px">First button have to be used to Start, Pause or Resume in case of animation and to Step forward in case of Single Step. "Reset" button is for starting animation from beginning. </p>
+    <p style="text-indent:20px">In case of Single Step (radio button), you can simulate every single step by pressing "Step forward" (Button) and difference between two consecutive step will have to be refered in the corresponding "Text field" in a fraction of Time Period (allowed input : divisor of 120 between 1 and 120. for wrong input nearest divisor will be considered as the input) .</p>
+    <p style="text-indent:20px">Slow Motion (Check Box) makes the animation 4 times slower. </p>
+    <p style="text-indent:20px">You can hide incidenting Wave, reflected Wave or Resultant Wave as required using the corresponding Check Boxes. </p>
+    </span>
+	</div>
+    
+    <div class="division1">
+		<applet code="TheApplet" archive="standingwave.jar" codebase="./" width=700 height=400 alt="Archive not found">
+		<font color="#ff0000">Java runtime environment not installed or deactivated</font>
+		</applet>
+	</div>
+
+</body>
+</html>

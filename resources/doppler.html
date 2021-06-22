@@ -1,0 +1,52 @@
+<html>
+<head>
+<title>Doppler Effect</title>
+<link href="../css/background.css" rel="stylesheet" type="text/css" />
+<link href="../css/newfont.css" rel="stylesheet" type="text/css" />
+<style type="text/css">
+.division1 {
+	border: 1px solid #F00;
+	position: absolute;
+	height: 400px;
+	width: 800px;
+	left: 500px;
+	top: 130px;
+	bottom: 100px;
+}
+
+#backgroundfont {
+	font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif;
+	font-size: 14px;
+}
+.division2 {
+	position: absolute;
+	height: 400px;
+	width: 440px;
+	left: 10px;
+	top: 130px;
+	bottom: 10px;
+}
+</style>
+</head>
+
+<body id="background">
+	<p class="customfont" style=" font-size:30px; text-align:center">Doppler Effect of Sound<br /> </p>
+    
+    <div class="division2">
+    <span id="backgroundfont"> 
+    <p style="text-indent:20px">This applet simulate the situation when an emergency ambulance with switched on siren passes a person who is standing at the street. Initially the man is drawn in black color. But, when a wave circle reaches to the man, the color becomes Red. </p>
+    <p style="text-indent:20px">First button have to be used to Pause or Resume the animation. "Restart" button is for starting the animation from beginning. </p>
+    
+    <p style="text-indent:20px">The ambulance leaves the person and after a certain time, no wave circle reaches the person which means that the siren is no more audible to the person. Now, You have to just press "Restart" to view the animation again. 
+    <p style="text-indent:20px">Note: This applet is not very realistic in one respect: As the Doppler effect should be seen as clearly as possible, the sound waves have a smaller velocity than in reality. </p>
+    </span>
+    </div>
+	
+    <div class="division1">
+		<applet code="TheApplet" archive="doppler.jar" codebase="./" width=800 height=400 alt="Archive not found">
+		<font color="#ff0000">Java runtime environment not installed or deactivated</font>
+		</applet>
+	</div>
+
+</body>
+</html>
